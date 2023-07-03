@@ -17,6 +17,7 @@
 		E4FA7AAA2A5272E400167CD6 /* AnimationExampleFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA7AA92A5272E400167CD6 /* AnimationExampleFive.swift */; };
 		E4FA7AAC2A5272EF00167CD6 /* AnimationExampleSIx.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA7AAB2A5272EF00167CD6 /* AnimationExampleSIx.swift */; };
 		E4FA7AB02A52988900167CD6 /* AnimationExampleSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA7AAF2A52988900167CD6 /* AnimationExampleSeven.swift */; };
+		E4FA7AB22A52B13E00167CD6 /* AnimationExampleEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA7AB12A52B13E00167CD6 /* AnimationExampleEight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		E4FA7AA92A5272E400167CD6 /* AnimationExampleFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExampleFive.swift; sourceTree = "<group>"; };
 		E4FA7AAB2A5272EF00167CD6 /* AnimationExampleSIx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExampleSIx.swift; sourceTree = "<group>"; };
 		E4FA7AAF2A52988900167CD6 /* AnimationExampleSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExampleSeven.swift; sourceTree = "<group>"; };
+		E4FA7AB12A52B13E00167CD6 /* AnimationExampleEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExampleEight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				E4FA7AA92A5272E400167CD6 /* AnimationExampleFive.swift */,
 				E4FA7AAB2A5272EF00167CD6 /* AnimationExampleSIx.swift */,
 				E4FA7AAF2A52988900167CD6 /* AnimationExampleSeven.swift */,
+				E4FA7AB12A52B13E00167CD6 /* AnimationExampleEight.swift */,
 				E4CE9D452A51C2B500CBF922 /* Swiftui_Animation_Example_2App.swift */,
 			);
 			path = "Swiftui Animation Example 2";
@@ -161,6 +164,7 @@
 				E4FA7AB02A52988900167CD6 /* AnimationExampleSeven.swift in Sources */,
 				E4FA7AA62A5272CC00167CD6 /* AnimationExampleThree.swift in Sources */,
 				E4FA7AAC2A5272EF00167CD6 /* AnimationExampleSIx.swift in Sources */,
+				E4FA7AB22A52B13E00167CD6 /* AnimationExampleEight.swift in Sources */,
 				E4CE9D462A51C2B500CBF922 /* Swiftui_Animation_Example_2App.swift in Sources */,
 				E4FA7AAA2A5272E400167CD6 /* AnimationExampleFive.swift in Sources */,
 			);

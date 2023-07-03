@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct AnimationExampleSeven: View {
+    
+    @State private var isShowingRed = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Button("Tap me") {
+                withAnimation(.easeInOut(duration: 1)) {
+                    isShowingRed.toggle()
+                }
+            }
+            
+            if isShowingRed{
+                Rectangle()
+                    .fill(.red)
+                    .frame(width: 200, height: 200)
+                    //.transition(.scale)
+                    .transition(.asymmetric(insertion: .opacity, removal: .scale))
+            }
+        }
     }
 }
 
