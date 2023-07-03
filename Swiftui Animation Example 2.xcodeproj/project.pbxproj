@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		E4CE9D462A51C2B500CBF922 /* Swiftui_Animation_Example_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE9D452A51C2B500CBF922 /* Swiftui_Animation_Example_2App.swift */; };
-		E4CE9D482A51C2B500CBF922 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE9D472A51C2B500CBF922 /* ContentView.swift */; };
+		E4CE9D482A51C2B500CBF922 /* AnimationExampleOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE9D472A51C2B500CBF922 /* AnimationExampleOne.swift */; };
 		E4CE9D4A2A51C2B700CBF922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CE9D492A51C2B700CBF922 /* Assets.xcassets */; };
 		E4CE9D4D2A51C2B700CBF922 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CE9D4C2A51C2B700CBF922 /* Preview Assets.xcassets */; };
+		E4FA7AA42A5272BD00167CD6 /* AnimationExampleTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA7AA32A5272BD00167CD6 /* AnimationExampleTwo.swift */; };
+		E4FA7AA62A5272CC00167CD6 /* AnimationExampleThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA7AA52A5272CC00167CD6 /* AnimationExampleThree.swift */; };
+		E4FA7AA82A5272D800167CD6 /* AnimationExampleFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA7AA72A5272D800167CD6 /* AnimationExampleFour.swift */; };
+		E4FA7AAA2A5272E400167CD6 /* AnimationExampleFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA7AA92A5272E400167CD6 /* AnimationExampleFive.swift */; };
+		E4FA7AAC2A5272EF00167CD6 /* AnimationExampleSIx.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA7AAB2A5272EF00167CD6 /* AnimationExampleSIx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E4CE9D422A51C2B500CBF922 /* Swiftui Animation Example 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swiftui Animation Example 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CE9D452A51C2B500CBF922 /* Swiftui_Animation_Example_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui_Animation_Example_2App.swift; sourceTree = "<group>"; };
-		E4CE9D472A51C2B500CBF922 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4CE9D472A51C2B500CBF922 /* AnimationExampleOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExampleOne.swift; sourceTree = "<group>"; };
 		E4CE9D492A51C2B700CBF922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4CE9D4C2A51C2B700CBF922 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4FA7AA32A5272BD00167CD6 /* AnimationExampleTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExampleTwo.swift; sourceTree = "<group>"; };
+		E4FA7AA52A5272CC00167CD6 /* AnimationExampleThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExampleThree.swift; sourceTree = "<group>"; };
+		E4FA7AA72A5272D800167CD6 /* AnimationExampleFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExampleFour.swift; sourceTree = "<group>"; };
+		E4FA7AA92A5272E400167CD6 /* AnimationExampleFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExampleFive.swift; sourceTree = "<group>"; };
+		E4FA7AAB2A5272EF00167CD6 /* AnimationExampleSIx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExampleSIx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +61,15 @@
 		E4CE9D442A51C2B500CBF922 /* Swiftui Animation Example 2 */ = {
 			isa = PBXGroup;
 			children = (
-				E4CE9D452A51C2B500CBF922 /* Swiftui_Animation_Example_2App.swift */,
-				E4CE9D472A51C2B500CBF922 /* ContentView.swift */,
 				E4CE9D492A51C2B700CBF922 /* Assets.xcassets */,
 				E4CE9D4B2A51C2B700CBF922 /* Preview Content */,
+				E4CE9D472A51C2B500CBF922 /* AnimationExampleOne.swift */,
+				E4FA7AA32A5272BD00167CD6 /* AnimationExampleTwo.swift */,
+				E4FA7AA52A5272CC00167CD6 /* AnimationExampleThree.swift */,
+				E4FA7AA72A5272D800167CD6 /* AnimationExampleFour.swift */,
+				E4FA7AA92A5272E400167CD6 /* AnimationExampleFive.swift */,
+				E4FA7AAB2A5272EF00167CD6 /* AnimationExampleSIx.swift */,
+				E4CE9D452A51C2B500CBF922 /* Swiftui_Animation_Example_2App.swift */,
 			);
 			path = "Swiftui Animation Example 2";
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4CE9D482A51C2B500CBF922 /* ContentView.swift in Sources */,
+				E4FA7AA82A5272D800167CD6 /* AnimationExampleFour.swift in Sources */,
+				E4CE9D482A51C2B500CBF922 /* AnimationExampleOne.swift in Sources */,
+				E4FA7AA42A5272BD00167CD6 /* AnimationExampleTwo.swift in Sources */,
+				E4FA7AA62A5272CC00167CD6 /* AnimationExampleThree.swift in Sources */,
+				E4FA7AAC2A5272EF00167CD6 /* AnimationExampleSIx.swift in Sources */,
 				E4CE9D462A51C2B500CBF922 /* Swiftui_Animation_Example_2App.swift in Sources */,
+				E4FA7AAA2A5272E400167CD6 /* AnimationExampleFive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
