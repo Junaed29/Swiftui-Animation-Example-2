@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct AnimationExampleFour: View {
+    @State private var enabled = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Tap Me") {
+            enabled.toggle()
+        }
+        .frame(width: 200, height: 200)
+        .background(enabled ? .blue : .red)
+        .animation(nil, value: enabled) // Here color chnage will not animating but Clipshape will
+        .foregroundColor(.white)
+        .clipShape(RoundedRectangle(cornerRadius: enabled ? 60 : 0))
+        .animation(.interpolatingSpring(stiffness: 10, damping: 1), value: enabled)
+        //.clipShape(RoundedRectangle(cornerRadius: enabled ? 60 : 0))
+        
     }
 }
 
@@ -18,3 +30,8 @@ struct AnimationExampleFour_Previews: PreviewProvider {
         AnimationExampleFour()
     }
 }
+
+
+//.animation(.default, value: enabled) this modifier's placement is very importent
+// It will not animate the modifier below the animation modifier
+// .clipShape(RoundedRectangle(cornerRadius: enabled ? 60 : 0)) this modofier will not animatate
